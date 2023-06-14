@@ -20,7 +20,7 @@ public abstract class Pessoa {
     private String telefone;
 
     public Pessoa() {
-
+        super();
     }
 
     public Pessoa(Integer id, String nome, String cpf, String telefone) {

@@ -15,7 +15,6 @@ public class Tecnico extends Pessoa implements Serializable {
     private List<OS> list = new ArrayList<>();
 
     public Tecnico() {
-
     }
 
     public Tecnico(Integer id, String nome, String cpf, String telefone) {
